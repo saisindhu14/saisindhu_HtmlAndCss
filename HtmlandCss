@@ -1,0 +1,42 @@
+<html>
+<body>
+<style>
+#tx1 {
+    background: white url("msg.png");
+    background-position:right;
+    padding-left:10px;
+    background-size:29px;
+    background-repeat:no-repeat;
+    border:ridge;
+}
+#tx2 {
+    background:url("pass.png");
+    background-position:right;
+     background-size:15px;
+    padding-left: 10px;
+    background-repeat:no-repeat;
+    border:ridge;
+}
+#tx3 {
+    background:url("hat.png");
+    background-position:left;
+     background-size:25px;
+    padding-left: 10px;
+    background-repeat:no-repeat;
+}
+</style>
+<center>
+<form style="border:ridge;width:220px;height:360px;color:grey">
+<input style="color:white;background-color:skyblue;text-align:center;padding:7px 25px;border-radius: 4px;border:none"  disabled type= text  value="Sign In" id="tx3"><br><br>
+<input type=text  size=25 name=tb1 placeholder=mail@gmail.com id="tx1"><br><br>
+<input type=password size=25 name=pw1 placeholder=password  id="tx2"><br><br>
+<input style="color:white;background-color:skyblue;text-align:center;padding:5px 83px;border-radius: 4px;border:none" type=submit value="SIGN IN" > <br> 
+<p>Forgot your password?&nbsp&nbspRegister!</p>
+<p style="color:grey">____________OR____________</p>
+<input style="color:white;background-color:blue;text-align:center;padding:6px 105px;font-size:15px;border-radius: 4px;border:none" type=submit value="f" formaction="https://www.facebook.com/login"> <br> <br>
+<input style="color:white;background-color:red;text-align:center;padding:6px 105px;font-size:15px;font-family:calibri;border-radius: 4px;border:none" type=submit value="g" formaction="https://www.google.com/intl/en_in/gmail/about/" > <br><br>
+<input style="color:white;background-color:rgb(172,211,0);text-align:center;padding:6px 52px;font-size:15px;border-radius: 4px;border:none" type=submit value="<EPAM  LOGIN>"> <br> <br>
+</form>
+</center>
+</body>
+</html>
